@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FriendFinder</title>
+
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+
+  <!-- Font Awesome Glyphicons -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+  <!-- Chosen -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h2>Survey Questions</h2>
+    <hr>
+
+    <h3><strong>About You</strong></h3>
+    <h4>Name (Required)</h4>
+    <input type="text" id="name" class="form-control" required>
+
+    <h4>Link to Photo Image (Required)</h4>
+    <input type="text" id="photo" class="form-control" required>
+
+    <hr>
+
+    <h3><strong>Question 1</strong></h3>
+    <h4>Your melee weapon of choie</h4>
+    <select class="chosen-select" id="q1">
+      <option value=""></option>
+      <option value="1">Knife</option>
+      <option value="2">Machete</option>
+      <option value="3">Katana</option>
+      <option value="4">Chainsaw</option>
+      <option value="5">Baseball Bat</option>
+    </select>
+
+    <h3><strong>Question 2</strong></h3>
+    <h4>Your ranged weapon of choice</h4>
+    <select class="chosen-select" id="q2">
+      <option value=""></option>
+      <option value="1">Handgun</option>
+      <option value="2">Shotgun</option>
+      <option value="3">Rifle</option>
+      <option value="4">Bow & Arrow</option>
+      <option value="5">Crossbow</option>
+    </select>
+
+
+    <h3><strong>Question 3</strong></h3>
+    <h4>Your favorite zombie movie</h4>
+    <select class="chosen-select" id="q3">
+      <option value=""></option>
+      <option value="1">Dawn of the Dead</option>
+      <option value="2">Zombieland</option>
+      <option value="3">Shaun of the Dead</option>
+      <option value="4">Night of the Living Dead</option>
+      <option value="5">Return of the Living Dead</option>
+    </select>
+
+
+    <h3><strong>Question 4</strong></h3>
+    <h4>Your fortified position of choice?</h4>
+    <select class="chosen-select" id="q4">
+      <option value=""></option>
+      <option value="1">Your house</option>
+      <option value="2">A grocery store</option>
+      <option value="3">A shopping mall</option>
+      <option value="4">Out in the wilderness</option>
+      <option value="5">A department store</option>
+    </select>
+
+
+    <h3><strong>Question 5</strong></h3>
+    <h4>Your fortified position has been overrun by the undead and you need to leave. You can take one of the following:</h4>
+    <select class="chosen-select" id="q5">
+      <option value=""></option>
+      <option value="1">Enough food for 3 days</option>
+      <option value="2">Enough water for 2 days</option>
+      <option value="3">Enough extra ammo to kill 15-20 zombies</option>
+      <option value="4">Enough gas to travel 100 miles</option>
+      <option value="5">A portable battery worth 5 days of power</option>
+    </select>
+
+
+    <h3><strong>Question 6</strong></h3>
+    <h4>Your loved one has turned into a zombie and you have no choice but to put them down. You are able to do this</h4>
+    <select class="chosen-select" id="q6">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h3><strong>Question 7</strong></h3>
+    <h4>It's better to stay on the move rather than find a permanent shelter</h4>
+    <select class="chosen-select" id="q7">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 8</strong></h3>
+    <h4>You'd rather go out on a supply run than stay back and defend your position</h4>
+    <select class="chosen-select" id="q8">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 9</strong></h3>
+    <h4>You feel confident in your current firearms and melee combat skills</h4>
+    <select class="chosen-select" id="q9">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3><strong>Question 10</strong></h3>
+    <h4>Suriving alone or with a few is better than being part of a larger community</h4>
+    <select class="chosen-select" id="q10">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <br>
+    <br>
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+     Submit</button>
+
+    <hr>
+    <footer class="footer">
+      <div class="container">
+        <p><a href="/api/friends">API Survivor List</a></p>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Modal -->
+  <div id="results-modal" class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="exampleModalLabel"><strong>Your Closest Match</strong></h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div id="modal-text" class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    </div>
+  </div>
+  <script type="text/javascript" src='../../app/data/friends.js'></script>
+  <style>
+    .container {
+      width: 50%;
+    }
+    .form-control {
+      width: 50%;
+    }
+    .chosen-select {
+      width: 25%;
+    }
+    #submit {
+      width: 25%;
+    }
+    </style>
+</body>
